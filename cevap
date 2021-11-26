@@ -1,0 +1,10 @@
+dizi = [] 
+a = 1
+b = 1
+c = 1
+while c<55: 
+    c = a+b
+    a = b
+    b = c
+    dizi.append(c) 
+print(dizi)
